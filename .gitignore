@@ -1,0 +1,5 @@
+config.json
+node_modules/
+src/configs/config.ts
+dist/
+Default Fil.js
