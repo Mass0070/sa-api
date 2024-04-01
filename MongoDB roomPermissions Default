@@ -1,0 +1,51 @@
+
+{
+    "ownerID": "DB",
+    "active": 1,
+    "permissions": {
+        "roles": {
+            "mainRoom": [{
+                "roleID": "662831492229103626",
+                "permissions": {
+                    "deny": ["VIEW_CHANNEL", "CONNECT"]
+                }
+            }, {
+                "roleID": "739186031412379738",
+                "permissions": {
+                    "deny": ["VIEW_CHANNEL", "CONNECT"]
+                }
+            }, {
+                "roleID": "1102307581030055936",
+                "permissions": {
+                    "allow": ["VIEW_CHANNEL", "STREAM"]
+                }
+            }, {
+                "roleID": "1083887455855460432",
+                "permissions": {
+                    "allow": ["VIEW_CHANNEL", "STREAM"]
+                }
+            }],
+            "waitingRoom": [{
+                "roleID": "662831492229103626",
+                "permissions": {
+                    "deny": ["VIEW_CHANNEL", "SPEAK"]
+                }
+            }, {
+                "roleID": "739186031412379738",
+                "permissions": {
+                    "deny": ["VIEW_CHANNEL", "SPEAK"]
+                }
+            }, {
+                "roleID": "1102307581030055936",
+                "permissions": {
+                    "allow": ["VIEW_CHANNEL"]
+                }
+            }, {
+                "roleID": "1083887455855460432",
+                "permissions": {
+                    "allow": ["VIEW_CHANNEL"]
+                }
+            }]
+        }
+    }
+}
